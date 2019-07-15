@@ -1,5 +1,5 @@
 //
-//  CardSearchParams.swift
+//  CardSearchParam.swift
 //  MTG-CardOfTheDay
 //
 //  Created by 醍醐崇紘 on 2019/07/14.
@@ -8,7 +8,10 @@
 
 import Foundation
 
-class CardSearchParams {
+class CardSearchParam {
+    let key: String
+    let value: String
+    
     enum Params: String {
         case random
         case gameFormat
@@ -16,5 +19,15 @@ class CardSearchParams {
         case type
     }
     
-    init(params: )
+    init(key: Params, value: String) {
+        self.key = key.rawValue
+        self.value = value
+    }
+}
+
+extension CardSearchParam {
+    static var defaultParam: [CardSearchParam] {
+        let random = CardSearchParam(key: .random, value: "true")
+        return [random]
+    }
 }

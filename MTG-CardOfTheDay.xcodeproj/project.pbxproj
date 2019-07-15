@@ -3,25 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74C897A1C48EE6776BB1D03 /* Pods_MTG_CardOfTheDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D171F7111D128E10FD275D /* Pods_MTG_CardOfTheDay.framework */; };
 		F3CD51A022DB1BF60097B4BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD519F22DB1BF60097B4BB /* AppDelegate.swift */; };
 		F3CD51A222DB1BF60097B4BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD51A122DB1BF60097B4BB /* ViewController.swift */; };
-		F3CD51A522DB1BF60097B4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CD51A322DB1BF60097B4BB /* Main.storyboard */; };
 		F3CD51A722DB1BF80097B4BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CD51A622DB1BF80097B4BB /* Assets.xcassets */; };
 		F3CD51AA22DB1BF80097B4BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CD51A822DB1BF80097B4BB /* LaunchScreen.storyboard */; };
+		F3D25D1A22DB215C00409A43 /* ShowCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D25D1822DB215C00409A43 /* ShowCardViewController.swift */; };
+		F3D25D1B22DB215C00409A43 /* ShowCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3D25D1922DB215C00409A43 /* ShowCardViewController.xib */; };
+		F3D25D1D22DB2C7200409A43 /* ShowCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D25D1C22DB2C7200409A43 /* ShowCardViewModel.swift */; };
+		F3D25D2222DB2DFD00409A43 /* MTGAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D25D2122DB2DFD00409A43 /* MTGAPI.swift */; };
+		F3D25D2522DB3BF400409A43 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D25D2422DB3BF400409A43 /* Card.swift */; };
+		F3D25D2722DB3F5C00409A43 /* CardSearchParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D25D2622DB3F5C00409A43 /* CardSearchParam.swift */; };
+		F3D25D2A22DB622D00409A43 /* ObservableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D25D2922DB622D00409A43 /* ObservableExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59D171F7111D128E10FD275D /* Pods_MTG_CardOfTheDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTG_CardOfTheDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1D7935AD9F3F9BBA4A2BEE /* Pods-MTG-CardOfTheDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG-CardOfTheDay.release.xcconfig"; path = "Target Support Files/Pods-MTG-CardOfTheDay/Pods-MTG-CardOfTheDay.release.xcconfig"; sourceTree = "<group>"; };
+		E147CA410C5AD61EF3C2A14C /* Pods-MTG-CardOfTheDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTG-CardOfTheDay.debug.xcconfig"; path = "Target Support Files/Pods-MTG-CardOfTheDay/Pods-MTG-CardOfTheDay.debug.xcconfig"; sourceTree = "<group>"; };
 		F3CD519C22DB1BF60097B4BB /* MTG-CardOfTheDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTG-CardOfTheDay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CD519F22DB1BF60097B4BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CD51A122DB1BF60097B4BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3CD51A422DB1BF60097B4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3CD51A622DB1BF80097B4BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3CD51A922DB1BF80097B4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3CD51AB22DB1BF80097B4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D25D1822DB215C00409A43 /* ShowCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCardViewController.swift; sourceTree = "<group>"; };
+		F3D25D1922DB215C00409A43 /* ShowCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowCardViewController.xib; sourceTree = "<group>"; };
+		F3D25D1C22DB2C7200409A43 /* ShowCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCardViewModel.swift; sourceTree = "<group>"; };
+		F3D25D2122DB2DFD00409A43 /* MTGAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGAPI.swift; sourceTree = "<group>"; };
+		F3D25D2422DB3BF400409A43 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F3D25D2622DB3F5C00409A43 /* CardSearchParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSearchParam.swift; sourceTree = "<group>"; };
+		F3D25D2922DB622D00409A43 /* ObservableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74C897A1C48EE6776BB1D03 /* Pods_MTG_CardOfTheDay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65F8DCFB8072385C6C40B3CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59D171F7111D128E10FD275D /* Pods_MTG_CardOfTheDay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA38F8CFCFBDEFD1A302561C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E147CA410C5AD61EF3C2A14C /* Pods-MTG-CardOfTheDay.debug.xcconfig */,
+				CF1D7935AD9F3F9BBA4A2BEE /* Pods-MTG-CardOfTheDay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F3CD519322DB1BF60097B4BB = {
 			isa = PBXGroup;
 			children = (
 				F3CD519E22DB1BF60097B4BB /* MTG-CardOfTheDay */,
 				F3CD519D22DB1BF60097B4BB /* Products */,
+				DA38F8CFCFBDEFD1A302561C /* Pods */,
+				65F8DCFB8072385C6C40B3CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,52 @@
 		F3CD519E22DB1BF60097B4BB /* MTG-CardOfTheDay */ = {
 			isa = PBXGroup;
 			children = (
+				F3D25D2822DB621700409A43 /* GeneralUtil */,
+				F3D25D2322DB3BDB00409A43 /* Models */,
+				F3D25D1E22DB2DD500409A43 /* API */,
+				F3D25D1722DB214000409A43 /* view */,
 				F3CD519F22DB1BF60097B4BB /* AppDelegate.swift */,
 				F3CD51A122DB1BF60097B4BB /* ViewController.swift */,
-				F3CD51A322DB1BF60097B4BB /* Main.storyboard */,
 				F3CD51A622DB1BF80097B4BB /* Assets.xcassets */,
 				F3CD51A822DB1BF80097B4BB /* LaunchScreen.storyboard */,
 				F3CD51AB22DB1BF80097B4BB /* Info.plist */,
 			);
 			path = "MTG-CardOfTheDay";
+			sourceTree = "<group>";
+		};
+		F3D25D1722DB214000409A43 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F3D25D1822DB215C00409A43 /* ShowCardViewController.swift */,
+				F3D25D1922DB215C00409A43 /* ShowCardViewController.xib */,
+				F3D25D1C22DB2C7200409A43 /* ShowCardViewModel.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F3D25D1E22DB2DD500409A43 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F3D25D2122DB2DFD00409A43 /* MTGAPI.swift */,
+				F3D25D2622DB3F5C00409A43 /* CardSearchParam.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F3D25D2322DB3BDB00409A43 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3D25D2422DB3BF400409A43 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3D25D2822DB621700409A43 /* GeneralUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F3D25D2922DB622D00409A43 /* ObservableExtension.swift */,
+			);
+			path = GeneralUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3CD51AE22DB1BF80097B4BB /* Build configuration list for PBXNativeTarget "MTG-CardOfTheDay" */;
 			buildPhases = (
+				C4447278C0226C2A085629B4 /* [CP] Check Pods Manifest.lock */,
 				F3CD519822DB1BF60097B4BB /* Sources */,
 				F3CD519922DB1BF60097B4BB /* Frameworks */,
 				F3CD519A22DB1BF60097B4BB /* Resources */,
+				10E94F2BC64DB2BC6FA01C65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +200,53 @@
 			files = (
 				F3CD51AA22DB1BF80097B4BB /* LaunchScreen.storyboard in Resources */,
 				F3CD51A722DB1BF80097B4BB /* Assets.xcassets in Resources */,
-				F3CD51A522DB1BF60097B4BB /* Main.storyboard in Resources */,
+				F3D25D1B22DB215C00409A43 /* ShowCardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10E94F2BC64DB2BC6FA01C65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTG-CardOfTheDay/Pods-MTG-CardOfTheDay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MTG-CardOfTheDay/Pods-MTG-CardOfTheDay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MTG-CardOfTheDay/Pods-MTG-CardOfTheDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4447278C0226C2A085629B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTG-CardOfTheDay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F3CD519822DB1BF60097B4BB /* Sources */ = {
@@ -136,21 +254,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CD51A222DB1BF60097B4BB /* ViewController.swift in Sources */,
+				F3D25D2A22DB622D00409A43 /* ObservableExtension.swift in Sources */,
+				F3D25D2522DB3BF400409A43 /* Card.swift in Sources */,
+				F3D25D1D22DB2C7200409A43 /* ShowCardViewModel.swift in Sources */,
 				F3CD51A022DB1BF60097B4BB /* AppDelegate.swift in Sources */,
+				F3D25D2222DB2DFD00409A43 /* MTGAPI.swift in Sources */,
+				F3D25D1A22DB215C00409A43 /* ShowCardViewController.swift in Sources */,
+				F3D25D2722DB3F5C00409A43 /* CardSearchParam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3CD51A322DB1BF60097B4BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3CD51A422DB1BF60097B4BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3CD51A822DB1BF80097B4BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +396,7 @@
 		};
 		F3CD51AF22DB1BF80097B4BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E147CA410C5AD61EF3C2A14C /* Pods-MTG-CardOfTheDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +415,7 @@
 		};
 		F3CD51B022DB1BF80097B4BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1D7935AD9F3F9BBA4A2BEE /* Pods-MTG-CardOfTheDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
